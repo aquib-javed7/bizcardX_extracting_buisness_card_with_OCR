@@ -13,9 +13,6 @@ When it comes to OCR, EasyOCR is by far the most straightforward way to apply Op
     *The dependencies on the EasyOCR package are minimal, making it easy to configure your OCR development environment.
     *Once EasyOCR is installed, only one import statement is required to import the package into your project.
     *From there, all you need is two lines of code to perform OCR — one to initialize the Reader class and then another to OCR the image via the readtext function.
-    
-# Want to see demo video of my project?
-# 
 
 # Libraries/Modules used for the project!
 
