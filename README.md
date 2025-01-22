@@ -1,7 +1,7 @@
 # bizcardX_extracting_buisness_card_with_OCR
 **BizCardX: Extracting Business Card Data with OCR**
 
-Bizcard Extraction is a Python application built with Streamlit, EasyOCR, Regex function, and Postsql database. It allows users to extract information from business cards and store it in a postsql  database for further analysis. The main purpose of Bizcard is to automate the process of extracting key details from business card images, such as the name, designation, company, contact information, and other relevant data. By leveraging the power of OCR (Optical Character Recognition) provided by EasyOCR, Bizcard is able to extract text from the images.
+Bizcard Extraction is a Python application built with Streamlit, EasyOCR, Regex function, and POSTGRESQL database. It allows users to extract information from business cards and store it in a POSTGRESQL  database for further analysis. The main purpose of Bizcard is to automate the process of extracting key details from business card images, such as the name, designation, company, contact information, and other relevant data. By leveraging the power of OCR (Optical Character Recognition) provided by EasyOCR, Bizcard is able to extract text from the images.
 
 # What is EasyOCR?
 
@@ -17,7 +17,7 @@ When it comes to OCR, EasyOCR is by far the most straightforward way to apply Op
 # Libraries/Modules used for the project!
 
     *Pandas - (To Create a DataFrame with the scraped data)
-    *Postsql - (To store and retrieve the data)
+    *POSTGRESQL - (To store and retrieve the data)
     *Streamlit - (To Create Graphical user Interface)
     *EasyOCR - (To extract text from images)
     
@@ -25,6 +25,6 @@ When it comes to OCR, EasyOCR is by far the most straightforward way to apply Op
 
     Extracts text information from business card images using EasyOCR. 
     Uses regular expressions (RegEx) to parse and extract specific fields like name, designation, company, contact details, etc.
-    Stores the extracted information in a postsql database for easy retrieval and analysis.
+    Stores the extracted information in a POSTGRESQL database for easy retrieval and analysis.
     Provides a user-friendly interface built with Streamlit to upload images, extract information, and view/update the database.
     
